@@ -20,7 +20,7 @@ chmod +x install_fs.sh
 ./install_fs.sh 2>&1 | tee install.log
 ```
 然后等待安装
-安装成功 [![QQ20160409-0@2x](http://wzq.hk/wp-content/uploads/2016/04/QQ20160409-0@2x-1024x900.png)](http://wzq.hk/wp-content/uploads/2016/04/QQ20160409-0@2x.png) 
+安装成功 [![QQ20160409-0@2x](/images/old/2016/04/QQ20160409-0@2x-1024x900.png)](/images/old/2016/04/QQ20160409-0@2x.png) 
 卸载
 ```bash
 sh /fs/stop.sh
@@ -48,4 +48,4 @@ tail -f /fs/server.log
 os x客户端下载
 链接：[http://pan.baidu.com/s/1hrIKITu](http://pan.baidu.com/s/1hrIKITu) 密码：qoji
 
-打开客户端后输入ip，添加要加速的端口就行了 [![QQ20160409-1@2x](http://wzq.hk/wp-content/uploads/2016/04/QQ20160409-1@2x-1024x627.png)](http://wzq.hk/wp-content/uploads/2016/04/QQ20160409-1@2x.png)
+打开客户端后输入ip，添加要加速的端口就行了 [![QQ20160409-1@2x](/images/old/2016/04/QQ20160409-1@2x-1024x627.png)](/images/old/2016/04/QQ20160409-1@2x.png)

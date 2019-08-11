@@ -27,4 +27,4 @@ int main(){
 gcc hello.c -o hello.cgi -std=c99
 ```
 然后进网页http://127.0.0.1/hello.cgi
-[![QQ20160722-0@2x](http://wzq.hk/wp-content/uploads/2016/07/QQ20160722-0@2x-1024x681.png)](http://wzq.hk/wp-content/uploads/2016/07/QQ20160722-0@2x.png)
+[![QQ20160722-0@2x](/images/old/2016/07/QQ20160722-0@2x-1024x681.png)](/images/old/2016/07/QQ20160722-0@2x.png)

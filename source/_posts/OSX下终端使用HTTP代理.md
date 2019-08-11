@@ -19,4 +19,4 @@ export https_proxy="http://USER:PWD@proxy.whatever:port"
 sudo -E wget https://www.google.com
 ```
 成功如图
-[![QQ20151215-0@2x](http://wzq.hk/wp-content/uploads/2015/12/QQ20151215-0@2x.png)](http://wzq.hk/wp-content/uploads/2015/12/QQ20151215-0@2x.png)
+[![QQ20151215-0@2x](/images/old/2015/12/QQ20151215-0@2x.png)](/images/old/2015/12/QQ20151215-0@2x.png)

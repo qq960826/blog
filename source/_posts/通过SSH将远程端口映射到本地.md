@@ -13,5 +13,5 @@ tags:
 具体方法： 
 1.首先在本人配置squid的端口为2010端口 
 2.在服务器那一端修改/etc/ssh/ssh_config 在最后一行加上GatewayPorts yes 
-3.然后在本地的机子上sudo ssh -L 2010:188.166.247.13:2010 root@188.166.247.13 [![QQ20160226-0@2x](http://wzq.hk/wp-content/uploads/2016/02/QQ20160226-0@2x.png)](http://wzq.hk/wp-content/uploads/2016/02/QQ20160226-0@2x.png) 
+3.然后在本地的机子上sudo ssh -L 2010:188.166.247.13:2010 root@188.166.247.13 [![QQ20160226-0@2x](/images/old/2016/02/QQ20160226-0@2x.png)](/images/old/2016/02/QQ20160226-0@2x.png) 
 这样就把远程的2010端口映射到本地的2010端口了，最后只需在本地浏览器的HTTP中设置代理127.0.0.1:2010就行了

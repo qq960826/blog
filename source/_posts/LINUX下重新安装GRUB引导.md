@@ -14,5 +14,5 @@ tags:
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
-[![屏幕快照 2016-02-01 下午3.25.02](http://wzq.hk/wp-content/uploads/2016/02/屏幕快照-2016-02-01-下午3.25.02.png)](http://wzq.hk/wp-content/uploads/2016/02/屏幕快照-2016-02-01-下午3.25.02.png) 
+[![屏幕快照 2016-02-01 下午3.25.02](/images/old/2016/02/屏幕快照-2016-02-01-下午3.25.02.png)](/images/old/2016/02/屏幕快照-2016-02-01-下午3.25.02.png) 
 关机，拔掉HDD的SATA线，在开机成功进入系统
