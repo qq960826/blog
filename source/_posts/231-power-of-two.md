@@ -4,7 +4,8 @@ url: 320.html
 id: 320
 comments: false
 categories:
-  - leetcode
+  - OJ
+  - LeetCode
 date: 2016-05-04 01:11:01
 tags:
 ---

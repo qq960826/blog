@@ -4,7 +4,8 @@ url: 170.html
 id: 170
 comments: false
 categories:
-  - leetcode
+  - OJ
+  - LeetCode
 date: 2015-12-13 15:12:42
 tags:
 ---

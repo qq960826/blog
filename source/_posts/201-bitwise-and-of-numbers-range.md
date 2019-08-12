@@ -4,7 +4,8 @@ url: 316.html
 id: 316
 comments: false
 categories:
-  - leetcode
+  - OJ
+  - LeetCode
 date: 2016-05-04 01:06:19
 tags:
 ---
