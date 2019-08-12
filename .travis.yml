@@ -36,4 +36,4 @@ script:
 - cd $TRAVIS_BUILD_DIR
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push qq960826/blog
-- docker stop $(docker ps -q --filter ancestor=qq960826/blog)&&docker rm $(docker ps -all -q --filter ancestor=qq960826/blog)&&docker pull qq960826/blog&&docker run -d qq960826/blog
+- ssh root@ziqiang.xyz StrictHostKeyChecking=no 'docker stop $(docker ps -q --filter ancestor=qq960826/blog)&&docker rm $(docker ps -all -q --filter ancestor=qq960826/blog)&&docker pull qq960826/blog&&docker run -d qq960826/blog'
