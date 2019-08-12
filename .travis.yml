@@ -15,16 +15,17 @@ before_install:
 install:
   - npm install
   - npm install hexo-deployer-git --save
-  - cd $TRAVIS_BUILD_DIR/go/src/server&&dep ensure
-
+  - cd {$TRAVIS_BUILD_DIR}/go/src/server&&dep ensure
+  - cd {$TRAVIS_BUILD_DIR}
 # 执行清缓存，生成网页操作
 script:
   - hexo clean
   - hexo generate
-  - cd $TRAVIS_BUILD_DIR/go/src/server&&go build&&mv server $TRAVIS_BUILD_DIR/public/
+  - cd {$TRAVIS_BUILD_DIR}/go/src/server&&go build&&mv server {$TRAVIS_BUILD_DIR}/public/
+  - cd {$TRAVIS_BUILD_DIR}
 # 设置git提交名，邮箱；替换真实token到_config.yml文件，最后depoy部署
 after_script:
-  - cd $TRAVIS_BUILD_DIR
+
   - git config user.name "qq960826"
   - git config user.email "qq960826@gmail.com"
   # 替换同目录下的_config.yml文件中gh_token字符串为travis后台刚才配置的变量，注意此处sed命令用了双引号。单引号无效！
