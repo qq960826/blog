@@ -12,6 +12,7 @@ cache:
 before_install:
   - npm install -g hexo-cli
   - export GOPATH=$TRAVIS_BUILD_DIR/go
+  - export PATH=$PATH:$TRAVIS_BUILD_DIR/go
   - curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
 # Start: Build Lifecycle
 install:
