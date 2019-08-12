@@ -1,40 +1,49 @@
 language: go
 go:
-  - "1.12.x"
-node_js: 
-  - 12.8.0
+- 1.12.x
+node_js:
+- 12.8.0
+addons:
+  ssh_known_hosts: 101.200.38.4
 sudo: required
 services: docker
 cache:
   directories:
-    - node_modules
-
+  - node_modules
 before_install:
-  - go version
-  - npm install -g hexo-cli
-  - export GOPATH=$TRAVIS_BUILD_DIR/go
-  - export PATH=$PATH:$TRAVIS_BUILD_DIR/go/bin
-  - curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
-# Start: Build Lifecycle
+- openssl aes-256-cbc -K $encrypted_4067c48da792_key -iv $encrypted_4067c48da792_iv
+  -in deploy_rsa.enc -out deploy_rsa -d
+- go version
+- npm install -g hexo-cli
+- export GOPATH=$TRAVIS_BUILD_DIR/go
+- export PATH=$PATH:$TRAVIS_BUILD_DIR/go/bin
+- curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
 install:
-  - npm install
-  - npm install hexo-deployer-git --save
-  - cd $TRAVIS_BUILD_DIR/go/src/server
-  - dep ensure
-  - cd $TRAVIS_BUILD_DIR
-  - hexo clean
-# 执行清缓存，生成网页操作
+- npm install
+- npm install hexo-deployer-git --save
+- cd $TRAVIS_BUILD_DIR/go/src/server
+- dep ensure
+- cd $TRAVIS_BUILD_DIR
+- hexo clean
 script:
-  - hexo generate
-  - cd $TRAVIS_BUILD_DIR/go/src/server
-  - go build
-  - mv server $TRAVIS_BUILD_DIR/public/
-  - cd $TRAVIS_BUILD_DIR
-  - docker build --rm -t qq960826/blog .
-# 设置git提交名，邮箱；替换真实token到_config.yml文件，最后depoy部署
+- hexo generate
+- cd $TRAVIS_BUILD_DIR/go/src/server
+- go build
+- mv server $TRAVIS_BUILD_DIR/public/
+- cd $TRAVIS_BUILD_DIR
+- docker build --rm -t qq960826/blog .
 after_script:
-  - cd $TRAVIS_BUILD_DIR
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push qq960826/blog
-
-# End: Build LifeCycle
+- cd $TRAVIS_BUILD_DIR
+- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+- docker push qq960826/blog
+before_deploy:
+  - openssl aes-256-cbc -K $encrypted_4067c48da792_key -iv $encrypted_4067c48da792_iv
+    -in deploy_rsa.enc -out /tmp/deploy_rsa -d
+  - eval "$(ssh-agent -s)"
+  - chmod 600 /tmp/deploy_rsa
+  - ssh-add /tmp/deploy_rsa
+deploy:
+  - docker stop $(docker ps -q --filter ancestor=qq960826/blog)
+  - docker rm $(docker ps -all -q --filter ancestor=qq960826/blog)
+  - docker pull qq960826/blog
+  - docker run -d qq960826/blog
