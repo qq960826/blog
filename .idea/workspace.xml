@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d68e0f02-19fc-4ece-ab91-841908090a61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/pkg/dep/sources/https---github.com-gin--contrib-sse" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/pkg/dep/sources/https---github.com-gin--gonic-gin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/pkg/dep/sources/https---github.com-golang-protobuf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/pkg/dep/sources/https---github.com-json--iterator-go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/pkg/dep/sources/https---github.com-mattn-go--isatty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/pkg/dep/sources/https---github.com-modern--go-concurrent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/pkg/dep/sources/https---github.com-modern--go-reflect2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/pkg/dep/sources/https---github.com-ugorji-go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/pkg/dep/sources/https---go.googlesource.com-sys" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/pkg/dep/sources/https---gopkg.in-go--playground-validator.v8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/pkg/dep/sources/https---gopkg.in-yaml.v2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/go/src/server/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/go/src/server/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/go/src/server/.idea/server.iml" beforeDir="false" />
@@ -643,8 +653,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+            <state relative-caret-position="153">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -705,13 +715,6 @@
               <item name="go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="go" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -755,12 +758,12 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32902297" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32902297" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -837,8 +840,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+        <state relative-caret-position="153">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
