@@ -32,7 +32,7 @@ script:
 - mv server $TRAVIS_BUILD_DIR/public/
 - cd $TRAVIS_BUILD_DIR
 - docker build --rm -t qq960826/blog .
-after_script:
+#after_script:
 - cd $TRAVIS_BUILD_DIR
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push qq960826/blog
