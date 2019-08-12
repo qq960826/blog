@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d68e0f02-19fc-4ece-ab91-841908090a61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/src/server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/go/src/server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/source/images/avatar.gif" beforeDir="false" />
     </list>
@@ -26,20 +25,66 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go/src/server/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+              <folding>
+                <element signature="e#14#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/context.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go/src/server/vendor/github.com/gin-gonic/gin/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-172" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go/src/server/vendor/github.com/gin-gonic/gin/response_writer.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.12.7/libexec/src/net/http/http.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="98">
+              <caret line="27" column="85" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -53,9 +98,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -89,6 +134,62 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="gin-gonic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="gin-gonic" type="462c0819:PsiDirectoryNode" />
+              <item name="gin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -96,6 +197,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -161,13 +263,6 @@
         <state relative-caret-position="-128270" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -175,10 +270,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/go/src/server/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#14#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/context.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go/src/server/vendor/github.com/gin-gonic/gin/response_writer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12.7/libexec/src/net/http/http.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go/src/server/vendor/github.com/gin-gonic/gin/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="27" column="85" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
         </state>
       </provider>
     </entry>
