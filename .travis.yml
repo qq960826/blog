@@ -25,7 +25,9 @@ install:
 # 执行清缓存，生成网页操作
 script:
   - hexo generate
-  - cd $TRAVIS_BUILD_DIR/go/src/server&&go build&&mv server $TRAVIS_BUILD_DIR/public/
+  - cd $TRAVIS_BUILD_DIR/go/src/server
+  - go build
+  - mv server $TRAVIS_BUILD_DIR/public/
   - cd $TRAVIS_BUILD_DIR
   - docker build --rm -t qq960826/blog .
 # 设置git提交名，邮箱；替换真实token到_config.yml文件，最后depoy部署
