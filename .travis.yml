@@ -1,4 +1,4 @@
-language: node_js
+language: golang
 node_js: 
   - 12.8.0
 go:
@@ -10,6 +10,7 @@ cache:
     - node_modules
 
 before_install:
+  - go version
   - npm install -g hexo-cli
   - export GOPATH=$TRAVIS_BUILD_DIR/go
   - export PATH=$PATH:$TRAVIS_BUILD_DIR/go/bin
